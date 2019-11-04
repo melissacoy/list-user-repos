@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+input[type="text"], input[type="number"]{
+    padding: 5px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 10px;
+}
+li, img {
+    max-width: 500px;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.error-message{
+    color: red;
+}
+.hidden{
+    display: none;
+}
