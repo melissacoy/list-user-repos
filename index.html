@@ -11,12 +11,18 @@
         <h1>Repo Finder</h1>
         <form id="js-form">
             <label for="search-term">Search Users: </label>
-            <input type="text" name="search-term" id="js-search-term" required>
+            <input type="text" name="search-term" id="js-search-term" placeholder="user handle" required>
 
             <label for="max-results">Maximum Number of Results: </label>
             <input type="number" name="max-results" id="js-max-results" value="5">
             <input type="submit" value="Go!">
         </form>
+        <p id="js-error-message" class="error-message"></p>
+        <section id="results" class="hidden">
+            <h2>Search Results</h2>
+            <ul id="results-list">
+            </ul>
+        </section>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js" 
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
